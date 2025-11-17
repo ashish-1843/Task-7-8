@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+  padding : 0;
+  margin : 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.offcanvas-header{
+  background-color: #222;
+  color : #fff;
+}
+
+.custom-offcanvas-width{
+  width : 70% !important;
+}
+
+.navbar-nav a{
+  font-size : 18px;
+}
+.navbar-nav a:hover{
+  color : white;
+}
+.banner-img{
+  background-image: url("tech banner.webp");
+  background-size: cover;
+  width : 100%;
+  height : 300px;
+}
+
+.banner-detail{
+  color : #fff;
+}
+
+.banner-detail h1{
+  font-size : 48px;
+  font-weight : 600;
+}
+
+.banner-detail a:hover{
+  background-color: transparent;
+  color : white;
+}
+
+
+.card{
+  background-color: #211832;
+  transition: 0.2s ease-in;
+}
+
+.card-img-top {
+  padding : 10px 10px;
+}
+
+
+.card .card-title, .card-text{
+  color : #fff;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 0 10px #211832;
+}
+
+.card .btn{
+  background-color: transparent;
+}
+
+.card .btn:hover{
+  background-color: #fff;
+  color : #222;
+}
+
+.footer ul{
+  display: flex;
+  list-style : none;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color : #fff;
+}
+
+@media (max-width : 800px){
+
+  .navbar-nav a{
+  font-size : 24px;
+  font-weight : 700;
+  }
+
+  .navbar-nav a:hover{
+    cursor : pointer;
+    color : #222;
+  }
+
+  .banner-detail h1{
+    font-size : 26px;
+  }
+
+  .banner-detail p{
+    font-size : 18px;
+  }
+
+  .banner-detail a{
+    font-size : 18px;
+  }
+
+  .card{
+    margin: auto;
+  }
+}
+
+
+@keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .fade-in {
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    .slide-up {
+      animation: slideUp 1.2s ease-out;
+    }
