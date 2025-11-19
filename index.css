@@ -46,7 +46,6 @@
   color : white;
 }
 
-
 .card{
   background-color: #211832;
   transition: 0.2s ease-in;
@@ -55,7 +54,6 @@
 .card-img-top {
   padding : 10px 10px;
 }
-
 
 .card .card-title, .card-text{
   color : #fff;
@@ -94,7 +92,6 @@
     font-size : 14px;
   }
 
-  
   .navbar-nav a{
   font-size : 18px;
   }
